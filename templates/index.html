@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<audio id="myAudio">
+  <source src={{link}} type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p>Click to hear a random voice line.</p>
+
+<a href=playAudio><button onclick="playAudio()" type="button" id="play">Play Audio</button></a>
+<!-- <button onclick="pauseAudio()" type="button">Pause Audio</button>  -->
+
+<script>
+var x = document.getElementById("myAudio"); 
+x.play();
+// function playAudio() {
+//     x.play();
+// } 
+
+// function pauseAudio() { 
+//   audio.pause(); 
+// }
+
+</script>
+
+</body>
+</html>
